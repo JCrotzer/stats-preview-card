@@ -27,7 +27,7 @@ html, body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     filter: sepia(45%) saturate(811%) hue-rotate(228deg) brightness(50%)
-    contrast(100%);
+    contrast(80%);
 }
 
 .header {
@@ -91,4 +91,75 @@ span {
     font-weight: 700;
     font-family: 'Inter', sans-serif; 
     font-size: 14px;
+}
+
+@media screen and (min-width : 820px) {
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        width: 1000px;
+        height: 600px;
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content:center;
+    }
+
+    .content {
+        width: 400px;
+        height: 350px;
+        margin: 100px 0 100px 100px;
+        border-radius: 10px 0 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .photo {
+        width: 400px;
+        height: 350px;
+        margin: 95px 100px 100px 0;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .content h1 {
+        margin: 50px 50px 0 50px;
+        text-align: start;
+    }
+
+    .content p {
+        margin: -80px 50px 0 50px;
+        text-align: start;
+    }
+
+    .statistics {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+
+    .statistics p {
+        margin-right: -15px;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items:flex-start;
+    }
+
+    .stat1 .categories {
+        margin-left: -15px;
+    }
+
+    .stat2 .categories {
+        margin-left: -25px;
+    }
+
+    
 }
