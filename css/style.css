@@ -110,8 +110,8 @@ span {
     }
 
     .content {
-        width: 400px;
-        height: 350px;
+        width: 500px;
+        height: 450px;
         margin: 100px 0 100px 100px;
         border-radius: 10px 0 0 10px;
         display: flex;
@@ -121,8 +121,8 @@ span {
     }
 
     .photo {
-        width: 400px;
-        height: 350px;
+        width: 500px;
+        height: 450px;
         margin: 95px 100px 100px 0;
         border-radius: 0 10px 10px 0;
     }
@@ -130,11 +130,13 @@ span {
     .content h1 {
         margin: 50px 50px 0 50px;
         text-align: start;
+        font-size: 28px;
     }
 
     .content p {
         margin: -80px 50px 0 50px;
         text-align: start;
+        font-size: 15px;
     }
 
     .statistics {
@@ -144,7 +146,8 @@ span {
     }
 
     .statistics p {
-        margin-right: -15px;
+        margin-right: -5px;
+        font-size: 10px;
     }
 
     .categories {
@@ -155,12 +158,10 @@ span {
     }
 
     .stat1 .categories {
-        margin-left: -15px;
-    }
-
-    .stat2 .categories {
         margin-left: -25px;
     }
 
-    
+    .stat2 .categories {
+        margin-left: -30px;
+    }
 }
